@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Module Test Report</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1, h2, h3 {
+      margin-top: 0;
+    }
+    table {
+      border-collapse: collapse;
+      margin-top: 1em;
+      width: 100%%;
+      max-width: 800px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .pass {
+      color: green;
+      font-weight: bold;
+    }
+    .fail {
+      color: red;
+      font-weight: bold;
+    }
+    .info {
+      white-space: pre-wrap; /* preserve newlines */
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Module Test Report</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Scenario</th>
+        <th>Status</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr>
+        <td>scenario_correct_1</td>
+        <td class="pass">PASS</td>
+        <td class="info">Output matches expected output file.</td>
+      </tr>
+
+      <tr>
+        <td>scenario_collision</td>
+        <td class="pass">PASS</td>
+        <td class="info">Output matches expected output file.</td>
+      </tr>
+
+      <tr>
+        <td>scenario_empty</td>
+        <td class="pass">PASS</td>
+        <td class="info">Output matches expected output file.</td>
+      </tr>
+
+      <tr>
+        <td>scenario_nonsense</td>
+        <td class="pass">PASS</td>
+        <td class="info">No expected output; script ran successfully.</td>
+      </tr>
+
+      <tr>
+        <td>scenario_multiple_files</td>
+        <td class="pass">PASS</td>
+        <td class="info">Output matches expected output file.</td>
+      </tr>
+
+      <tr>
+        <td>scenario_duplicate_ids</td>
+        <td class="pass">PASS</td>
+        <td class="info">Output matches expected output file.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3>Summary</h3>
+<p>Passed: <strong>6</strong>, Failed: <strong>0</strong>, Total: <strong>6</strong></p></body>
+</html>
